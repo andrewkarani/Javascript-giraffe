@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<!--    I WANT TO BE ABLE TO CLICK THIS BUTTON AND THEN 5 SECONDS LATER I WANT AN ALERT MESSAGE TO POP UP
+WE CUD USE JS TIMING
+the 1st thing is to attach an event handler on to this button. inside of the quotation marks we put what we want to happen wen clicked
+we can call a special JS timing function called setTimeout.
+it allows us to set a timer and we can specify how longwe want that timer to be 
+and wen the timer runs out it will executea JS function
+inside the settimout we set 2 parameters. 
+1st one is the name of the function I want to execute at the end of the time interval
+2nd parameter is the duration. the time is set to milliseconds
+rem you have to create the function inside your JS file-->
+  <button onClick="setTimeout(sayHi, 3000)">Click Me</button>
+  <button onClick="setInterval(funcName, 3000)">Click Me</button> <!-- allows you to execute a function at specific intervals . it happens infinitely-->
+
+  <script src="timing.js"></script>
+</body>
+</html>

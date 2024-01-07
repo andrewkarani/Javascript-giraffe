@@ -1,0 +1,20 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- the onclick in the line of code below is a JS event. the alert shows up wen the button is clicked-->
+    <button id="button" onclick="alert('You clicked me');">Click me</button>
+    <!--doing this can be tiring. youcud call a function from inside of the onclick event then we cud execute that function in an external JS file-->
+    <button id="button" onclick="handleClick()">Click me</button>
+    <!--the handleclick is a function -->
+
+    <!-- IF you wanted to change the specific button information
+    you cud give the the function you r creating a parameter (inside the parentheses) then on your separate JS file indicate element-->
+    <button id="button" onclick="handleClick( this)">Click me</button>
+    <script src="event_listeners.js"></script>
+  </body>
+  </html>
